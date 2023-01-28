@@ -1,13 +1,13 @@
 Prophetic scientists of electrical engineering
 ===================================================
 
-A simple static website in memory prophetic scientists of electrical engineering
+A simple multi pages static website in memory of prophetic scientists in electrical engineering
 
 The content of all pages is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # About
 
-This is project of Javascript course when I studied web technologies in triOS college following [Michael Lewis](https://michaellewis.ca/), An experienced and kindful instructor of London campus.
+This is a project of the Javascript course when I studied web technologies at triOS college following [Michael Lewis](https://michaellewis.ca/), An experienced and kindful instructor on the London campus.
 
 # ref
 
