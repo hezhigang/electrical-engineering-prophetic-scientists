@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Prophetic scientists of electrical engineering</title>
+</head>
+<body>
+
+    <header id="maxwellHeader"></header>
+    <nav>
+        <a href="index.html?p=home" title="Electrical engineering">Home</a>
+        <a href="Michael-Faraday.html?p=faraday" title="Michael Faraday">Michael Faraday</a>
+        <a href="James-Clerk-Maxwell.html?p=maxwell" title="James Clerk Maxwell">James Clerk Maxwell</a>
+        <a href="Maxwellians.html?p=fiveSaints" title="The Maxwellians">The Maxwellians</a>
+        <div id="hamburger" onclick="ToggleNav();">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div id="mobileNav">
+        <a href="index.html?p=home" title="Electrical engineering">Home</a>
+        <a href="Michael-Faraday.html?p=faraday" title="Michael Faraday">Michael Faraday</a>
+        <a href="James-Clerk-Maxwell.html?p=maxwell" title="James Clerk Maxwell">James Clerk Maxwell</a>
+        <a href="Maxwellians.html?p=fiveSaints" title="The Maxwellians">The Maxwellians</a>
+    </div>
+    <main>
+        <section>
+            <h1>James Clerk Maxwell</h1>
+            <p>James Clerk Maxwell was a Scottish mathematician and scientist responsible for the classical theory of electromagnetic radiation, which was the first theory to describe electricity, magnetism and light as different manifestations of the same phenomenon. Maxwell's equations for electromagnetism have been called the "second great unification in physics" where the first one had been realised by Isaac Newton. </p>
+        </section>
+        <section>
+            <img id="Maxwell_equations" src="assets/Maxwell-equations.jpg" alt="Maxwell's equations">
+            <h1>Maxwell's equations</h1>
+            <p>Maxwell first used the equations to propose that light is an electromagnetic phenomenon. The modern form of the equations in their most common formulation is credited to Oliver Heaviside. </p>
+        </section>
+        <section>
+            <h1>A Treatise on Electricity and Magnetism</h1>
+            <p>A Treatise on Electricity and Magnetism is a two-volume treatise on electromagnetism written by James Clerk Maxwell in 1873. </p>
+            <p>Oliver Heaviside (1893):”What is Maxwell's theory? The first approximation is to say: There is Maxwell's book as he wrote it; there is his text, and there are his equations: together they make his theory. But when we come to examine it closely, we find that this answer is unsatisfactory. To begin with, it is sufficient to refer to papers by physicists, written say during the first twelve years following the first publication of Maxwell's treatise to see that there may be much difference of opinion as to what his theory is. It may be, and has been, differently interpreted by different men, which is a sign that is not set forth in a perfectly clear and unmistakable form. There are many obscurities and some inconsistencies. Speaking for myself, it was only by changing its form of presentation that I was able to see it clearly, and so as to avoid the inconsistencies. Now there is no finality in a growing science. It is, therefore, impossible to adhere strictly to Maxwell's theory as he gave it to the world, if only on account of its inconvenient form.[9][10] </p>
+        </section>
+        <section>
+            <h1>Personal life</h1>
+            <p>As a great lover of Scottish poetry, Maxwell memorised poems and wrote his own.</p>
+            <p>A collection of his poems was published by his friend Lewis Campbell in 1882.</p>
+        </section>
+        <section>
+            <h1>An Ode to Maxwell</h1>
+            <p>Toward the end of his life, Oliver Heaviside wrote a moving tribute to Good Old Maxwell.</p>
+            <q>A part of us lives after us, diffused throughout all humanity - more or less - and through all nature. This is the immortality of the soul. There are large souls and small souls. ... That of a Shakespeare or Newton is stupendously big. Such men live the best part of their lives after they are dead. Maxwell is one of these men. His soul will live and grow for long to come, and hundreds of years hence will shine as one of the bright stars of the past, whose light takes ages to reach us.</q>
+        </section>
+    </main>
+    <canvas id="canvas"></canvas>
+    <footer>
+        <p>&copy; Prophetic scientists of electrical engineering. Today is <span id="ymdwSpan"></span></p>
+    </footer>    
+    
+    <script src="scripts/star.js"></script>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
