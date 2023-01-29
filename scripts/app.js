@@ -66,7 +66,7 @@ let quotes = {
     ],
     'fiveSaints': [
         'If Universities do not study useless subjects, who will?',
-        'Death is not extinction. ',
+        'Death is not extinction.',
         'Life must be considered sui generis; it is not a form of energy, nor can it be expressed in terms of something else.',
         'We do not dwell in the Palace of Truth.',
         'Rigorous Mathematics is Narrow, Physical Mathematics Bold And Broad.',
